@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    /* background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%); */
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);}
+nav {
+    display: grid;
+    grid-template-columns: repeat(12, lfr);
+    grid-auto-rows: auto;
+    grid-gap: 1em;
+    border: 1px #ddd solid;
+    align-items: center;
+    padding: 10px;
+}
+.nav-company-title {
+    border: 1px #ddd solid;
+    grid-column: 1;
+    text-align: center;
+    font-size: 1.25em;
+}
+.nav-link-about {
+    border: 1px #ddd solid;
+    grid-column: 12;
+    font-size: 1.25em;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.call-to-action {
+    display: grid;
+    grid-template-columns: 1 auto;
+    justify-content: space-evenly;
+    align-content: center;
+    border: 1px #ddd solid;
+}
+.subscribe-form {
+    display: grid;
+    align-content: center;
+    grid-column: 1;
+    border: 1px #ddd solid;
+    /* 
+    grid-auto-rows: 2em;
+    grid-gap: .5em; */
+}
+.subscribe-form p {
+    grid-column: 1
+}
+.subscribe-form input {
+    grid-column: 1
+}
